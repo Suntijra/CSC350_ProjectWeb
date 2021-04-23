@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3bacb465-7fd6-47bd-b572-b65e76daefab/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/Domddydomdogecoin",
+    "appService.deploySubpath": "."
+}

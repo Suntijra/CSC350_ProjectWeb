@@ -48,9 +48,7 @@ if(isset($_SESSION['login'])){
                 <img src="img/2x/baseline_reorder_white_18dp.png" alt="">
               </a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">REGISTER</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="contact_me.php">contact me</a></li>
               </ul>
             </li>
           </ul>

@@ -50,9 +50,7 @@ if (isset($_SESSION['login'])) {
                 <img src="img/2x/baseline_reorder_white_18dp.png" alt="">
               </a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">REGISTER</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="contact_me.php">contact me</a></li>
               </ul>
             </li>
           </ul>
@@ -80,7 +78,7 @@ if (isset($_SESSION['login'])) {
   width: 50%;
   border: 3px solid black;
   padding: 10px;">
-    <form class="form-horizontal" action="register_system/insertdata.php" method="POST">
+    <form class="form-horizontal" action="register_system/insertdata.php" method="POST" oninput='pwd1.setCustomValidity(pwd1.value != pwd2.value ? "Passwords do not match." : "")'>
       <fieldset>
 
         <!-- Form Name -->
